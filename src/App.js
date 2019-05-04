@@ -2,12 +2,12 @@ import React from 'react';
 import './App.scss';
 import 'bulma/bulma.sass';
 
-import Page from './pages/ValidateAsFormSubmit';
+import FormValidation from './FormValidation';
 
 function App() {
   return (
-    <div className='App'>
-      <Page />
+    <div className='App has-background-light'>
+      <FormValidation />
     </div>
   );
 }
