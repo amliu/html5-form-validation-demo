@@ -58,7 +58,7 @@ const FormValidation = () => {
 
   return (
     <>
-      <form onSubmit={handleSubmit} ref={formRef} noValidate>
+      <form onSubmit={handleSubmit} ref={formRef}>
         <div className='field'>
           <label className='label'>Email</label>
           <div className='control'>
